@@ -44,7 +44,10 @@ public class BankDetails
 				+"\n"+"ACCOUNT NUMBER  "+accountNumber+"\n"+"\n";
 		return details;
 	}
-	
+	public int getBalance()
+	{
+		return 100;
+	}
 	public static String getBankInfo()
 	{
 		String info = "BANK NAME "+BANK_NAME+"\n"+"NO OF ACCOUNTS "+noOfAccounts+"\n"+"IFSC CODES "+ifscList;
